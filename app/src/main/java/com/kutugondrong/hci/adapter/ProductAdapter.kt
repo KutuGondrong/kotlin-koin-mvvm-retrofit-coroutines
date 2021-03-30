@@ -9,7 +9,6 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.kutugondrong.hci.R
 import com.kutugondrong.hci.model.Data
-import kotlinx.android.synthetic.main.article_items_layout.view.*
 
 class ProductAdapter(private val dataSet: List<Data.ItemResponse>) :
     RecyclerView.Adapter<ProductAdapter.ViewHolder>() {
